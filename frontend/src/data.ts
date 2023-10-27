@@ -1,0 +1,81 @@
+import { Food } from "./app/shared/food";
+import { Tag } from "./app/shared/tag";
+
+export const sample_tags:Tag[]=[
+  { name: 'All', count: 6 },
+  { name: 'FastFood', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Lunch', count: 3 },
+  { name: 'SlowFood', count: 2 },
+  { name: 'Fry', count: 1 },
+]
+
+
+export const sample_foods:Food[]=[
+    {id:'1',
+    name: 'Salad',
+    cookTime: '10-20',
+    price: 10,
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.5,
+    imageUrl: 'assets/1.jpeg',
+    tags: ['FastFood', 'Pizza', 'Lunch'],
+  },
+  {
+    id:'2',
+    name: 'Salad 2',
+    price: 20,
+    cookTime: '20-30',
+    favorite: true,
+    origins: ['persia', 'middle east', 'china'],
+    stars: 4.7,
+    imageUrl: 'assets/завантаження (6).jpeg',
+    tags: ['SlowFood', 'Lunch'],
+  },
+  {
+    id:'3',
+    name: 'Fries',
+    price: 5,
+    cookTime: '10-15',
+    favorite: false,
+    origins: ['germany', 'us'],
+    stars: 3.5,
+    imageUrl: 'assets/завантаження (7).jpeg',
+    tags: ['FastFood', ],
+  },
+  {
+    id:'4',
+    name: 'Salad 2',
+    price: 2,
+    cookTime: '15-20',
+    favorite: true,
+    origins: ['belgium', 'france'],
+    stars: 3.3,
+    imageUrl: 'assets/завантаження (6).jpeg',
+    tags: ['FastFood', 'Fry'],
+  },
+  {
+    id:'5',
+    name: 'Salad',
+    price: 11,
+    cookTime: '40-50',
+    favorite: false,
+    origins: ['india', 'asia'],
+    stars: 3.0,
+    imageUrl: 'assets/завантаження (8).jpeg',
+    tags: ['SlowFood', 'Soup'],
+  },
+  {
+    id:'6',
+    name: 'Pancakes',
+    price: 9,
+    cookTime: '40-50',
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'assets/images (2).jpeg',
+    tags: ['FastFood', 'Pizza', 'Lunch'],
+  },
+
+]
